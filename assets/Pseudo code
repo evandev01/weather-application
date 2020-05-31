@@ -1,0 +1,61 @@
+Pseudo code
+
+API Key: 
+723e37136fff2bbcd07b95ca1cc52234
+
+API Call:
+api.openweathermap.org/data/2.5/forecast?q={city name}&appid={your api key}
+
+api.openweathermap.org/data/2.5/forecast?q= + city name + &appid=723e37136fff2bbcd07b95ca1cc52234
+
+
+HTML:
+Title: Weather Dashboard
+Create header = "Weather Dashboard"
+
+Bootstrap: 
+col-md-3 for cities
+col-md-9 for current weather and 5-day forecast
+
+variables: 
+city name
+city buttons
+current weather card
+5-day forcast weather card
+weather icons
+date
+icon of weather conditions
+temperature
+humidity
+wind speed
+UV index
+
+
+
+function for saving textarea in local storage
+console.log(local storage)
+
+function for linking textarea to buttons rendered
+function for rendering city buttons in sidebar
+function for appending city buttons to sidebar
+
+
+functions for api calling information stored in variables:
+//
+
+
+//
+function for linking textarea search to api call
+function for moment calling current date/(time?)
+function for linking moment to api call for city
+function for linking api calling api weather variables
+function for appending weather variables to weather cards
+
+CSS:
+style font
+style header
+style buttons
+style cards
+style background
+
+
